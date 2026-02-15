@@ -59,27 +59,8 @@ Infrastructure is provisioned using **Terraform Modules**, and configuration is 
 
 ## 📂 Project Structure
 
-aws-autoscaling-devops-project/
-│
-├── terraform/
-│ ├── modules/
-│ │ ├── network/
-│ │ └── security/
-│ ├── provider.tf
-│ ├── main.tf
-│ ├── variables.tf
-│ └── backend.tf
-│
-├── ansible/
-│ ├── roles/
-│ │ └── webserver/
-│ │ ├── tasks/
-│ │ └── templates/
-│ ├── aws_ec2.yml
-│ ├── playbook.yml
-│ └── ansible.cfg
-│
-└── README.md
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/0b00d25b-cae7-478d-89c3-e05670f23a34" />
+
 
 ---
 
