@@ -65,16 +65,21 @@ aws-autoscaling-devops-project/
 │ ├── modules/
 │ │ ├── network/
 │ │ └── security/
+│ ├── provider.tf
 │ ├── main.tf
-│ └── variables.tf
+│ ├── variables.tf
+│ └── backend.tf
 │
 ├── ansible/
-│ ├── roles/webserver/
+│ ├── roles/
+│ │ └── webserver/
+│ │ ├── tasks/
+│ │ └── templates/
 │ ├── aws_ec2.yml
-│ └── playbook.yml
+│ ├── playbook.yml
+│ └── ansible.cfg
 │
 └── README.md
-
 
 ---
 
