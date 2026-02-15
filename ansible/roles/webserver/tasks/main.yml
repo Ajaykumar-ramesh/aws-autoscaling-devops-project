@@ -1,0 +1,19 @@
+- name: Update apt
+  apt:
+    update_cache: yes
+
+- name: Install nginx
+  apt:
+    name: nginx
+    state: present
+
+- name: Copy index.html
+  template:
+    src: index.html
+    dest: /var/www/html/index.html
+
+- name: Start nginx
+  service:
+    name: nginx
+    state: started
+    enabled: yes
